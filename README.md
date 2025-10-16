@@ -37,7 +37,7 @@ This method also has arguements noted : String[] args.
 String[] is an array of strings and args is the short for 'Arguments'. These are used to understand values put when the program is launched in the command prompt.
 For instance, I can call my program in the command prompt and adds arguments that could be used in the program itself : 
 
->>> Java BadApple 'This is an argument' 'This is another argument'
+> Java BadApple 'This is an argument' 'This is another argument'
 
 To access those arguments in the program, you simply reuse the string array => 'This is an argument' is args[0] , 'This is another argument' is args[1], and so on...
 
