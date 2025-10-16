@@ -6,7 +6,7 @@ This project is about a rendering of the video [Bad Apple](https://www.youtube.c
 
 I am a student in first year of Computer Science and this is a beginner project mostly made during my free time.
 
-![subaru](/image/rezero-subaru.gif)
+![subaru](/Images/rezero-subaru.gif)
 
 I'll try my best to update it as often as I can.
 
