@@ -31,3 +31,14 @@ So this full character is just gonna clear the console and move the cursor to th
 
 The next command : System.out.flush() will force an immediate display. In other words, it guarantees that the code is executed right away. 
 
+The program first version also contain a main method. As said earlier, this method is used as the entry point of the program. We defined it as a public method (can be used and accessed everywhere in the program), a static method (we can call it without creating an object), a 'void' method (the method doesn't return anything specific) and as the main method (the first thing called in the program when launched. It is important to note that every program needs a Main Method to execute correctly.).
+
+This method also has arguements noted : String[] args.
+String[] is an array of strings and args is the short for 'Arguments'. These are used to understand values put when the program is launched in the command prompt.
+For instance, I can call my program in the command prompt and adds arguments that could be used in the program itself : 
+
+>>> Java BadApple 'This is an argument' 'This is another argument'
+
+To access those arguments in the program, you simply reuse the string array => 'This is an argument' is args[0] , 'This is another argument' is args[1], and so on...
+
+
