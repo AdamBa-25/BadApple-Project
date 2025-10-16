@@ -42,5 +42,7 @@ For instance, I can call my program in the command prompt and adds arguments tha
 To access those arguments in the program, you simply reuse the string array => 'This is an argument' is args[0] , 'This is another argument' is args[1], and so on...
 
 To conclude this part, I added my new Method 'clearConsole()' to the main. When executed, the program will simply clear the console.
+
 ![Victory!](/Images/Victory.png)
+
 We're off a good start !
