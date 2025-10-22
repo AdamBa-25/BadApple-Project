@@ -66,3 +66,6 @@ This means I downloaded (219 * 30 frames =) 6570 images in one file.
 
 I wonder how java will react when extracting those 6570 images, applying the program to each frame and printing them in the command prompt...
 Surely nothing is gonna go wrong.
+
+Next update is gonna be the creation of a 2 dimensions array for a simple image first.
+One step at a time.
