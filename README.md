@@ -50,3 +50,19 @@ To conclude this part, I added my new Method 'clearConsole()' to the main. When 
 ![Victory!](/Images/Victory.png)
 
 We're off a good start !
+
+### 22/10/2025 :
+
+I divided the video in frames using the video filter option on VLC media player.
+But there is one little problem...
+
+The video is exactly 3 minutes and 39 secondes long.
+Lets do quick math here to see what is the problem : The video I downloaded to extract frames was in 30 fps, which means that for 1 seconde of video, 30 frames will be played.
+For 3 minutes and 39 secondes of video we have 219 secondes in total.
+
+This means I downloaded (219 * 30 frames =) 6570 images in one file.
+
+![screen1](Images/screen1.png)
+
+I wonder how java will react when extracting those 6570 images, applying the program to each frame and printing them in the command prompt...
+Surely nothing is gonna go wrong.
